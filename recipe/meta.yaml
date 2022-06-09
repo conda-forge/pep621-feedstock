@@ -1,5 +1,5 @@
 {% set name = "pep621" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.0.post1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pep621-{{ version }}.tar.gz
-  sha256: 024271b42c3ce72fd4c57792da428c4a6c29fadee58c3580096e2a1a86131434
+  sha256: e67862ce2b8ae0bb335f8b7385814949ddee2064c89892027182816fc6f66954
 
 build:
   number: 0
